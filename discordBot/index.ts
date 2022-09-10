@@ -26,7 +26,7 @@ client.on('ready', () => {
     //there are two types of slash commands.
     //guild: registered instantly. use this when testing.
     //global: takes time to register. use this for final product.
-    const guildID = '985348059825307739';
+    const guildID = '################################';
     const guild = client.guilds.cache.get(guildID);
     let commands;
     
